@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-advice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-annotation-tx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-code-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-context" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-data-migration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-dbutils-druid-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-interceptor2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-receive-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-requet-mapping" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-ssm-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-ssm-json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-view" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-xml2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-xml3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-xml3/demo-controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-xml3/demo-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-xml3/demo-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-xml3/demo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mybatis-druid-good" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-research" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-servlet3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-sqlsessionfactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ssm-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-transactional-delete" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx" charset="UTF-8" />
+  </component>
+</project>

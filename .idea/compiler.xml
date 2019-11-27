@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-mvc-xml" />
+        <module name="spring-research" />
+        <module name="spring-mvc-interceptor2" />
+        <module name="spring-annotation-tx" />
+        <module name="spring-mvc-ssm-json" />
+        <module name="demo-entity" />
+        <module name="spring-code" />
+        <module name="spring-mvc-requet-mapping" />
+        <module name="spring-mvc-helloworld" />
+        <module name="spring-mvc-view" />
+        <module name="spring-mybatis-druid-good" />
+        <module name="spring-dbutils-druid-web" />
+        <module name="demo-dao" />
+        <module name="spring-mvc-file" />
+        <module name="spring-servlet3" />
+        <module name="spring-tx" />
+        <module name="spring-mvc-ssm-code" />
+        <module name="spring-transactional-delete" />
+        <module name="spring-data-migration" />
+        <module name="demo-controller" />
+        <module name="spring-mvc-receive-data" />
+        <module name="spring-code-mybatis" />
+        <module name="spring-context" />
+        <module name="spring-mvc-xml2" />
+        <module name="demo-service" />
+        <module name="spring-sqlsessionfactory" />
+        <module name="spring-advice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-mvc-interceptor" target="1.8" />
+      <module name="spring-mvc-receive-data2" target="1.8" />
+      <module name="spring-ssm-code" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

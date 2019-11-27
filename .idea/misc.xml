@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-code-mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-data-migration" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-file" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-helloworld" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-interceptor2" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-receive-data" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-receive-data2" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-requet-mapping" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-ssm-code" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-ssm-json" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-view" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-xml3/demo-controller" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mybatis-druid-good" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-servlet3" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-mvc-receive-data2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ssm-code/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
