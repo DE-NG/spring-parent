@@ -1,0 +1,4 @@
+com\sqlsessionfactory\Properties.class
+com\sqlsessionfactory\Main.class
+com\sqlsessionfactory\SqlSessionFactory.class
+com\sqlsessionfactory\SqlSessionFactoryCreator.class

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <mybatis:scan base-package="com.dao"></mybatis:scan>
+    <bean id="employeeService" class="com.service.EmployeeService" autowire="byType"></bean>
+    <bean id="advisor" class="com.advisor.MyAdvisor"></bean>
+
+    <aop:config>
+        <aop:pointcut id="myPointcut" expression="execution(* com.service..*.*(..))"/>
+        <aop:advisor advice-ref="advisor" pointcut-ref="myPointcut"></aop:advisor>
+    </aop:config>
+</beans>

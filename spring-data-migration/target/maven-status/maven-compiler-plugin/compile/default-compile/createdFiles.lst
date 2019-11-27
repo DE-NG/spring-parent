@@ -1,0 +1,9 @@
+com\service\AService.class
+com\controller\SelectServlet.class
+com\dao\BDao.class
+com\entity\B.class
+com\service\BService.class
+com\dao\ADao.class
+com\Main.class
+com\service\impl\ServiceImpl.class
+com\entity\A.class

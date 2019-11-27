@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="properties" class="com.sqlsessionfactory.Properties">
+        <constructor-arg name="url" value="localhost"></constructor-arg>
+        <constructor-arg name="username" value="root"></constructor-arg>
+        <constructor-arg name="pwd" value="123"></constructor-arg>
+        <constructor-arg name="driverClassName" value="jdbc.Driver"></constructor-arg>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="com.sqlsessionfactory.SqlSessionFactory">
+        <constructor-arg name="prop" ref="properties"></constructor-arg>
+    </bean>
+
+    <bean id="sqlSessionFactoryCreator" class="com.sqlsessionfactory.SqlSessionFactoryCreator">
+        <constructor-arg name="prop" ref="properties"></constructor-arg>
+    </bean>
+
+    <bean id="creator" factory-bean="sqlSessionFactoryCreator" factory-method="create">
+
+    </bean>
+</beans>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="b" class="com.research.B"></bean>
+    <bean id="c" class="com.research.C"></bean>
+    <bean id="a" class="com.research.A" init-method="init" scope="singleton">
+        <constructor-arg name="b" ref="b"></constructor-arg>
+        <constructor-arg name="c" ref="c"></constructor-arg>
+    </bean>
+    <!--
+     当作用域为singleton的时候
+     -->
+</beans>
